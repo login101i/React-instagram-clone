@@ -4,7 +4,7 @@
 }
 .app{
   background-color: white;
-  max-width: 1500px;
+width:100%;
   margin:0 auto;
 
 
@@ -18,6 +18,9 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  position:sticky;
+  top:0;
+  z-index: 1;
 
 
 
@@ -25,6 +28,8 @@
 .app__posts{
   display:flex;
   background-color: purple;
+  max-width: 1500px;
+  margin:0 auto;
 }
 
 .app__postsLeft{
@@ -46,6 +51,10 @@
 
 .app__logIn{
   margin-right: 33px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  cursor:pointer;
 }
 .app__inputs{
   display:flex;
